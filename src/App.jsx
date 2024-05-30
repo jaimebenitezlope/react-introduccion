@@ -4,6 +4,8 @@ import CalculateFahrenheitToCelsius from './components/calculate-fahrenheit-to-c
 import CalculateSquareArea from './components/calculate-square-area/CalculateSquareArea';
 import CalculateTriangleArea from './components/calculate-triangle-area/CalculateTriangleArea';
 import SayHello from './components/say-hello/SayHello';
+import TotalPrice from './components/total-price/TotalPrice';
+import WriteMessage from './components/write-message/WriteMessage';
 
 
 const App = () => {
@@ -13,8 +15,10 @@ const App = () => {
 		<CalculateSquareArea side='20'/>
 		<CalculateTriangleArea base='20' height='10'/>
 		<CalculateCircleArea radio='10'/>
-		<CelsiusToFahrenheit celsius='10'/>
-		<CalculateFahrenheitToCelsius fahrenheit='10'/>
+		<CelsiusToFahrenheit celsius='100'/>
+		<CalculateFahrenheitToCelsius fahrenheit='100'/>
+		<TotalPrice price='100' iva='0.21'/>
+		<WriteMessage name='Pepe' material='amianto' size='extra-grande' note='Avisar policía'  />
 		</>
 	);
 };
